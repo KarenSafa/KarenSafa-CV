@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en" dir="ltr" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Karen Safa — Student CV | Computer Science &amp; Software Engineering</title>
+  <meta name="description" content="CV of Karen Safa, a Grade 11 Mathematics and Physics student in Kerman, Iran, with a strong interest in computer science, web development, and machine learning.">
+  <meta name="author" content="Karen Safa">
+  <meta name="robots" content="index, follow">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#fbfbfd" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+
+  <!-- EDIT: replace https://your-domain.example/ with your real website address -->
+  <link rel="canonical" href="https://your-domain.example/">
+  <link rel="alternate" hreflang="en" href="https://your-domain.example/?lang=en">
+  <link rel="alternate" hreflang="fa" href="https://your-domain.example/?lang=fa">
+  <link rel="alternate" hreflang="x-default" href="https://your-domain.example/">
+
+  <!-- Open Graph / social previews -->
+  <meta property="og:type" content="profile">
+  <meta property="og:site_name" content="Karen Safa">
+  <meta property="og:title" content="Karen Safa — Student CV">
+  <meta property="og:description" content="Grade 11 Mathematics and Physics student in Kerman, Iran, interested in computer science, web development, and machine learning.">
+  <meta property="og:url" content="https://your-domain.example/">
+  <meta property="og:image" content="https://your-domain.example/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Karen Safa — Student CV">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="fa_IR">
+  <meta property="profile:first_name" content="Karen">
+  <meta property="profile:last_name" content="Safa">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Karen Safa — Student CV">
+  <meta name="twitter:description" content="Grade 11 Mathematics and Physics student interested in computer science, web development, and machine learning.">
+  <meta name="twitter:image" content="https://your-domain.example/assets/og-image.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+
+  <!-- Applies saved theme/language before first paint (prevents flashing) -->
+  <script>
+    (function () {
+      try {
+        var d = document.documentElement;
+        var q = new URLSearchParams(location.search).get('lang');
+        var lang = (q === 'fa' || q === 'en') ? q : localStorage.getItem('cv-lang');
+        if (lang === 'fa') { d.lang = 'fa'; d.dir = 'rtl'; d.classList.add('i18n-pending'); }
+        var t = localStorage.getItem('cv-theme');
+        if (t !== 'light' && t !== 'dark') t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        d.setAttribute('data-theme', t);
+        d.classList.add('js');
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "name": "Karen Safa — Student CV",
+    "url": "https://your-domain.example/",
+    "inLanguage": ["en", "fa"],
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Karen Safa",
+      "alternateName": "کارن صفا",
+      "description": "High school student (Grade 11, Mathematics and Physics track) interested in computer science and software engineering.",
+      "email": "mailto:karen.safa.2010@gmail.com",
+      "address": { "@type": "PostalAddress", "addressLocality": "Kerman", "addressCountry": "IR" },
+      "affiliation": { "@type": "EducationalOrganization", "name": "Alameh High School", "address": { "@type": "PostalAddress", "addressLocality": "Kerman", "addressCountry": "IR" } },
+      "alumniOf": { "@type": "EducationalOrganization", "name": "Mahdavi Middle School", "address": { "@type": "PostalAddress", "addressLocality": "Kerman", "addressCountry": "IR" } },
+      "knowsAbout": ["Python", "HTML", "CSS", "JavaScript", "Django", "Machine learning", "Web development", "Computer science"],
+      "knowsLanguage": [
+        { "@type": "Language", "name": "Persian", "alternateName": "fa" },
+        { "@type": "Language", "name": "English", "alternateName": "en" }
+      ]
+    }
+  }
+  </script>
+</head>
+<body id="top">
+  <a class="skip-link" href="#main" data-i18n="skip">Skip to main content</a>
+
+   <!-- ============ Header / navigation ============ -->
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary" data-i18n-attr="aria-label:nav.label">
+      <a class="nav__brand" href="#top" aria-label="Karen Safa — back to top" data-i18n-attr="aria-label:nav.brand">
+        <span class="nav__mark" aria-hidden="true">KS</span>
+        <span class="nav__name" data-i18n="hero.name">Karen Safa</span>
+      </a>
+
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#education" data-i18n="nav.education">Education</a></li>
+        <li><a href="#skills" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#courses" data-i18n="nav.courses">Courses</a></li>
+        <li><a href="#languages" data-i18n="nav.languages">Languages</a></li>
+        <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+
+      <div class="nav__actions">
+        <button class="icon-btn" type="button" id="lang-toggle" aria-label="Switch language to Persian" data-i18n-attr="aria-label:action.langLabel;title:action.langLabel" title="Switch language to Persian">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>
+          <span class="icon-btn__text" data-i18n="action.langShort">فا</span>
+        </button>
+        <button class="icon-btn" type="button" id="theme-toggle" aria-label="Switch to dark mode" title="Switch to dark mode">
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <button class="btn btn--pill btn--primary nav__print" type="button" data-print>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4a1 1 0 0 1-1-1v-6a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v6a1 1 0 0 1-1 1h-2"/><path d="M6 14h12v7H6z"/></svg>
+          <span data-i18n="action.print">Print CV</span>
+        </button>
+        <button class="icon-btn nav__menu" type="button" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu" data-i18n-attr="aria-label:nav.menu">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ Hero ============ -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__inner">
+        <div class="hero__avatar reveal" aria-hidden="true">KS</div>
+        <p class="eyebrow reveal" data-i18n="hero.eyebrow">Student · Computer Science &amp; Software Engineering</p>
+        <h1 class="hero__title reveal" id="hero-title" data-i18n="hero.name">Karen Safa</h1>
+        <p class="hero__lead reveal" data-i18n="hero.lead">A high school student building a solid foundation in programming, web technologies, and machine learning.</p>
+        <ul class="hero__meta reveal" aria-label="Quick facts" data-i18n-attr="aria-label:hero.metaLabel">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg><span data-i18n="hero.location">Kerman, Iran</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 9l10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5"/></svg><span data-i18n="hero.grade">Grade 11</span></li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20L20 4M5 5h4M7 3v4M15 17h4"/></svg><span data-i18n="hero.track">Mathematics &amp; Physics</span></li>
+        </ul>
+        <div class="hero__cta reveal">
+          <a class="btn btn--primary btn--lg" href="#contact" data-i18n="hero.ctaContact">Get in touch</a>
+          <button class="btn btn--ghost btn--lg" type="button" data-print>
+            <span data-i18n="action.print">Print CV</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg>
+          </button>
+        </div>
+        <!-- Shown only on the printed CV -->
+        <p class="print-contact">
+          <span>karen.safa.2010@gmail.com</span>
+          <span data-i18n="hero.location">Kerman, Iran</span>
+          <span class="print-contact__phone" data-phone hidden></span>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ About ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">About me</p>
+          <h2 class="section__title" id="about-title" data-i18n="about.title">Curious by nature. Organized by habit.</h2>
+        </header>
+        <p class="about__body reveal" data-i18n="about.body">Friendly and well-organized high school student with a strong interest in technology and continuous learning. I can manage multiple tasks, learn new skills quickly, and approach responsibilities with curiosity and a positive attitude. I am currently developing my skills in programming, web technologies, machine learning, and languages.</p>
+        <ul class="stats">
+          <li class="stat reveal"><span class="stat__num" data-i18n="stat.gradeNum">11</span><span class="stat__label" data-i18n="stat.grade">Grade — Mathematics &amp; Physics track</span></li>
+          <li class="stat reveal"><span class="stat__num" data-i18n="stat.techNum">4</span><span class="stat__label" data-i18n="stat.tech">Programming &amp; web languages</span></li>
+          <li class="stat reveal"><span class="stat__num" data-i18n="stat.coursesNum">3</span><span class="stat__label" data-i18n="stat.courses">Training courses</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Education ============ -->
+    <section class="section section--alt" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="education.eyebrow">Education</p>
+          <h2 class="section__title" id="education-title" data-i18n="education.title">Building a strong foundation.</h2>
+        </header>
+        <ol class="timeline">
+          <li class="timeline__item reveal">
+            <article class="card edu">
+              <div class="edu__top">
+                <h3 class="edu__school" data-i18n="edu1.school">Alameh High School</h3>
+                <span class="badge badge--live" data-i18n="edu1.badge">Current</span>
+              </div>
+              <p class="edu__detail" data-i18n="edu1.detail">Mathematics &amp; Physics Track · Grade 11</p>
+              <p class="edu__meta"><time data-i18n="edu1.date">2025 – Present</time><span aria-hidden="true">·</span><span data-i18n="edu.kerman">Kerman</span></p>
+            </article>
+          </li>
+          <li class="timeline__item reveal">
+            <article class="card edu">
+              <div class="edu__top">
+                <h3 class="edu__school" data-i18n="edu2.school">Mahdavi Middle School</h3>
+              </div>
+              <p class="edu__meta"><time data-i18n="edu2.date">2022 – 2025</time><span aria-hidden="true">·</span><span data-i18n="edu.kerman">Kerman</span></p>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ Technical skills ============ -->
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="skills.eyebrow">Technical skills</p>
+          <h2 class="section__title" id="skills-title" data-i18n="skills.title">The tools I'm learning.</h2>
+          <p class="section__sub" data-i18n="skills.note">Currently developing — no exaggeration, just steady progress.</p>
+        </header>
+        <ul class="bento">
+          <li class="card skill reveal"><span class="skill__glyph" aria-hidden="true">Py</span><h3 class="skill__name">Python</h3><p class="skill__desc" data-i18n="skill.python">General-purpose programming</p></li>
+          <li class="card skill reveal"><span class="skill__glyph" aria-hidden="true">&lt;/&gt;</span><h3 class="skill__name">HTML</h3><p class="skill__desc" data-i18n="skill.html">Page structure &amp; semantics</p></li>
+          <li class="card skill reveal"><span class="skill__glyph" aria-hidden="true">{ }</span><h3 class="skill__name">CSS</h3><p class="skill__desc" data-i18n="skill.css">Layout &amp; visual styling</p></li>
+          <li class="card skill reveal"><span class="skill__glyph" aria-hidden="true">JS</span><h3 class="skill__name">JavaScript</h3><p class="skill__desc" data-i18n="skill.js">Interactivity in the browser</p></li>
+          <li class="card interests reveal">
+            <h3 class="interests__title" data-i18n="interests.title">Areas of interest</h3>
+            <ul class="chips">
+              <li class="chip" data-i18n="interest.cs">Computer science</li>
+              <li class="chip" data-i18n="interest.web">Web development</li>
+              <li class="chip" data-i18n="interest.ml">Machine learning</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Personal skills ============ -->
+    <section class="section section--alt" id="personal" aria-labelledby="personal-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="personal.eyebrow">Personal skills</p>
+          <h2 class="section__title" id="personal-title" data-i18n="personal.title">How I work.</h2>
+        </header>
+        <ul class="grid-3">
+          <li class="card trait reveal"><h3 class="trait__title" data-i18n="p.org.t">Organization</h3><p data-i18n="p.org.d">A structured, well-organized approach to tasks and responsibilities.</p></li>
+          <li class="card trait reveal"><h3 class="trait__title" data-i18n="p.multi.t">Multitasking</h3><p data-i18n="p.multi.d">Able to manage and follow through on several activities at once.</p></li>
+          <li class="card trait reveal"><h3 class="trait__title" data-i18n="p.learn.t">Fast learning</h3><p data-i18n="p.learn.d">Picks up new skills and concepts quickly.</p></li>
+          <li class="card trait reveal"><h3 class="trait__title" data-i18n="p.curious.t">Curiosity</h3><p data-i18n="p.curious.d">Approaches new subjects with genuine interest and questions.</p></li>
+          <li class="card trait reveal"><h3 class="trait__title" data-i18n="p.resp.t">Responsibility</h3><p data-i18n="p.resp.d">Takes commitments seriously and completes tasks carefully.</p></li>
+          <li class="card trait reveal"><h3 class="trait__title" data-i18n="p.pos.t">Positive &amp; friendly</h3><p data-i18n="p.pos.d">Respectful, friendly communication with a positive attitude.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Projects ============ -->
+    <!-- EDIT: replace the placeholder cards below with your real projects.
+         Remove the "is-placeholder" class from a card once it contains real content.
+         Placeholder cards are hidden automatically when printing. -->
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="projects.eyebrow">Projects</p>
+          <h2 class="section__title" id="projects-title" data-i18n="projects.title">What I'm building.</h2>
+          <p class="section__sub" data-i18n="projects.intro">Personal projects will be added to this section soon.</p>
+        </header>
+        <ul class="grid-2">
+          <li class="card project is-placeholder reveal">
+            <span class="badge" data-i18n="proj.ph">Placeholder</span>
+            <h3 class="project__title" data-i18n="proj.title">[Project name]</h3>
+            <p data-i18n="proj.desc">[Briefly describe what you built, the tools you used, and what you learned.]</p>
+            <ul class="chips"><li class="chip" data-i18n="proj.tags">[Technologies]</li></ul>
+          </li>
+          <li class="card project is-placeholder reveal">
+            <span class="badge" data-i18n="proj.ph">Placeholder</span>
+            <h3 class="project__title" data-i18n="proj.title">[Project name]</h3>
+            <p data-i18n="proj.desc">[Briefly describe what you built, the tools you used, and what you learned.]</p>
+            <ul class="chips"><li class="chip" data-i18n="proj.tags">[Technologies]</li></ul>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Courses ============ -->
+    <section class="section section--alt" id="courses" aria-labelledby="courses-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="courses.eyebrow">Training &amp; courses</p>
+          <h2 class="section__title" id="courses-title" data-i18n="courses.title">Learning beyond the classroom.</h2>
+        </header>
+        <ul class="grid-3">
+          <li class="card course reveal"><span class="course__tag" data-i18n="course.tagWeb">Web development</span><h3 class="course__title">Django</h3><p data-i18n="course.django">Web programming with the Django framework</p></li>
+          <li class="card course reveal"><span class="course__tag" data-i18n="course.tagCs">Computer science</span><h3 class="course__title" data-i18n="course.mlT">Machine Learning</h3><p data-i18n="course.ml">Fundamentals of machine learning</p></li>
+          <li class="card course reveal"><span class="course__tag" data-i18n="course.tagLang">Language</span><h3 class="course__title" data-i18n="course.itT">Italian</h3><p data-i18n="course.it">Italian language course</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Languages ============ -->
+    <section class="section" id="languages" aria-labelledby="languages-title">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow" data-i18n="languages.eyebrow">Languages</p>
+          <h2 class="section__title" id="languages-title" data-i18n="languages.title">Communicating across languages.</h2>
+        </header>
+        <!-- EDIT: to show a proficiency level, add <p class="lang__level">Your level</p> under a language name. -->
+        <ul class="grid-3">
+          <li class="card lang reveal"><span class="lang__glyph" aria-hidden="true" lang="fa">فا</span><h3 class="lang__name" data-i18n="lang.fa">Persian</h3></li>
+          <li class="card lang reveal"><span class="lang__glyph" aria-hidden="true" lang="en">En</span><h3 class="lang__name" data-i18n="lang.en">English</h3></li>
+          <li class="card lang lang--learning reveal"><span class="lang__glyph" aria-hidden="true" lang="it">It</span><h3 class="lang__name" data-i18n="lang.it">Italian</h3><p class="lang__level" data-i18n="lang.itNote">Currently studying</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ Contact ============ -->
+    <section class="section section--alt" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact card reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+          <h2 class="section__title" id="contact-title" data-i18n="contact.title">Let's connect.</h2>
+          <p class="contact__body" data-i18n="contact.body">For educational opportunities, courses, or student project collaborations, feel free to reach out by email.</p>
+          <a class="contact__email" href="mailto:karen.safa.2010@gmail.com">karen.safa.2010@gmail.com</a>
+          <dl class="contact__list">
+            <div><dt data-i18n="contact.emailLabel">Email</dt><dd><a href="mailto:karen.safa.2010@gmail.com" aria-label="Send an email to Karen Safa" data-i18n-attr="aria-label:contact.emailAria">karen.safa.2010@gmail.com</a></dd></div>
+            <div><dt data-i18n="contact.locationLabel">Location</dt><dd data-i18n="hero.location">Kerman, Iran</dd></div>
+            <div data-phone-row hidden><dt data-i18n="contact.phoneLabel">Phone</dt><dd data-phone></dd></div>
+          </dl>
+          <div class="contact__cta">
+            <a class="btn btn--primary btn--lg" href="mailto:karen.safa.2010@gmail.com" data-i18n="contact.cta">Send an email</a>
+            <button class="btn btn--ghost btn--lg" type="button" data-print><span data-i18n="action.print">Print CV</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p>© <span id="year">2026</span> <span data-i18n="hero.name">Karen Safa</span>. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <p data-i18n="footer.built">Designed and built with HTML, CSS, and JavaScript.</p>
+      <a class="site-footer__top" href="#top" data-i18n="footer.top">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
